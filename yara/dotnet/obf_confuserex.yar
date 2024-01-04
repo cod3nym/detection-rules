@@ -1,4 +1,4 @@
-rule MAL_OBF_NET_ConfuserEx_Name_Pattern_Jan24 {
+rule SUSP_OBF_NET_ConfuserEx_Name_Pattern_Jan24 {
 	meta:
 		description = "Detects Naming Pattern used by ConfuserEx. ConfuserEx is a widely used open source obfuscator often found in malware"
 		author = "Jonathan Peters"
