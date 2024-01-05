@@ -1,3 +1,5 @@
+import "pe"
+
 rule DOTNET_SingleFileHost_Bundled_App {
 	meta:
 		description = "Detects single file host .NET bundled apps."
