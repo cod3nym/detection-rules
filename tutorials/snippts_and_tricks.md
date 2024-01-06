@@ -23,7 +23,7 @@
       pe.sections[0].raw_data_size == 0
 ```
 
-## Convert strings to hexstrings for for templating
+## Convert strings to hexstrings for templating
 > [!TIP]
 > This can save the effort of building a Regex pattern and benefit performance. For example instead of searching for `_CorDllMain` or `_CorExeMain` or some regex to detect the two we can do the following:
 
