@@ -33,7 +33,7 @@
 ```
 ## Avoid modules when possible
 > [!TIP]
-> Modules add convenience at the cost of performance, so I tend to avoid them when possible. For example instead of using `dotnet.is_dotnet` we can just search for some managed imports we expect our malware to have or common strings of a .NET binary like `mscorlib`, `System.Private.Corlib` etc.
+> Modules add convenience at the cost of performance, so I tend to avoid them when possible. For example instead of using `dotnet.is_dotnet` we can just search for some managed imports we expect our sample to have or common strings of a .NET binary like `mscorlib`, `System.Private.Corlib` etc.
 
 ```
    strings:
@@ -42,4 +42,4 @@
       $s3 = "System.Private.Corlib" ascii
       $s4 = "#Strings" ascii
       $s5 = { 5F 43 6F 72 [3] 4D 61 69 6E }
-```.
+```
