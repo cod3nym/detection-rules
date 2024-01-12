@@ -1,3 +1,5 @@
+import "pe"
+
 rule SUSP_OBF_NET_Reactor_Native_Stub_Jan24 {
 	meta:
 		description = "Detects native packer stub for version 4.5-4.7 of .NET Reactor. A pirated copy of version 4.5 of this commercial obfuscation solution is used by various malware families like BlackBit, RedLine, AgentTesla etc."
