@@ -1,3 +1,5 @@
+import "pe"
+
 rule SUSP_NET_Large_Static_Array_In_Small_File_Jan24 {
    meta:
       description = "Detects large static arrays in small .NET files "
