@@ -10,6 +10,7 @@ rule SUSP_OBF_PyArmor_Jan24
 	strings:
 		$ = "__pyarmor__" ascii
 		$ = "pyarmor_runtime" ascii
+		$ = "pyarmor(__" ascii
 		$ = { 50 79 61 72 6D 6F 72 20 [5] 20 28 70 72 6F 29 }
 		$ = { 5F 5F 61 72 6D 6F 72 5F ( 65 78 69 74 | 77 72 61 70 | 65 6E 74 65 72 ) 5F 5F }
 	condition:
