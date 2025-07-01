@@ -9,6 +9,7 @@ rule SingleFileHost_App_Bundle
 		author = "Jonathan Peters"
 		created = "2024-01-03"
 		reliability = 90
+		score = 40
 	strings:
 		$ = "singlefilehost.exe" ascii
 		$ = "singlefilehost.pdb" ascii
