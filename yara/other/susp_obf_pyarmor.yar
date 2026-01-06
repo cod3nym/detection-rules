@@ -6,7 +6,7 @@ rule SUSP_OBF_PyArmor_Jan24
 		date = "2024-01-16"
 		reference = "https://www.trendmicro.com/en_us/research/23/h/batloader-campaigns-use-pyarmor-pro-for-evasion.html"
 		hash = "2727a418f31e8c0841f8c3e79455067798a1c11c2b83b5c74d2de4fb3476b654"
-		score = 65
+		score = 55
 	strings:
 		$ = "__pyarmor__" ascii
 		$ = "pyarmor_runtime" ascii
