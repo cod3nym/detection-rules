@@ -6,6 +6,7 @@ rule DOTNET_SingleFileHost_Bundled_App {
 		author = "Jonathan Peters"
 		date = "2024-01-02"
 		reference = "https://learn.microsoft.com/en-us/dotnet/core/deploying/single-file"
+		score = 30
 	strings:
 		$ = "singlefilehost.exe" ascii
 		$ = "singlefilehost.pdb" ascii
